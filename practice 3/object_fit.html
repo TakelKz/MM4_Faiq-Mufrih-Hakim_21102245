@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .cover,
+      .contain,
+      .fill,
+      .none,
+      .scale-down {
+        width: 200px;
+        height: 300px;
+      }
+
+      .cover {
+        object-fit: cover;
+      }
+
+      .contain {
+        object-fit: contain;
+      }
+
+      .fill {
+        object-fit: fill;
+      }
+
+      .none {
+        object-fit: none;
+      }
+
+      .scale-down {
+        object-fit: scale-down;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Using object-fit: cover</h2>
+
+    <img
+      class="cover"
+      src="../assets/img_chania.jpg"
+      alt="Paris"
+      width="400"
+      height="300"
+    />
+
+    <h2>Using object-fit: contain</h2>
+
+    <img
+      class="contain"
+      src="../assets/img_chania.jpg"
+      alt="Paris"
+      width="400"
+      height="300"
+    />
+
+    <h2>Using object-fit: fill</h2>
+
+    <img src="../assets/img_chania.jpg" alt="Paris" width="400" height="300" />
+
+    <h2>Using object-fit: none</h2>
+
+    <img
+      class="none"
+      src="../assets/img_chania.jpg"
+      alt="Paris"
+      width="400"
+      height="300"
+    />
+
+    <h2>Using object-fit: scale down</h2>
+
+    <img
+      class="scale-down"
+      src="../assets/img_chania.jpg"
+      alt="Paris"
+      width="400"
+      height="300"
+    />
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #grad1 {
+        height: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(red, yellow);
+      }
+
+      #grad2 {
+        height: 150px;
+        width: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: radial-gradient(red, yellow, green);
+      }
+
+      #grad3 {
+        height: 200px;
+        width: 200px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: conic-gradient(red, yellow, green);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Linear Gradient - Top to Bottom</h1>
+    <p>
+      This linear gradient starts red at the top, transitioning to yellow at the
+      bottom:
+    </p>
+    <div id="grad1"></div>
+
+    <h1>Radial Gradient - Evenly Spaced Color Stops</h1>
+
+    <div id="grad2"></div>
+
+    <h1>Conic Gradient - Three Colors</h1>
+
+    <div id="grad3"></div>
+  </body>
+</html>
