@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1"
+  },
+  "name": "mm4_faiq-mufrih-hakim_21102245",
+  "description": "link hosting practice 3 : https://mm-4-faiq-mufrih-hakim-21102245-7yb8.vercel.app/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
